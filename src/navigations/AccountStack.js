@@ -11,6 +11,7 @@ export default function AccountStack() {
             <Stack.Screen name="account" component={Account} options={{
                 title: 'Mi cuenta'
             }} />
+
         </Stack.Navigator>
     )
 }
